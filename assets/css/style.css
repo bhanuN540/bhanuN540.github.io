@@ -115,6 +115,10 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     font-size: 16px;
     color: #fff;
 }
+.seatImage{
+    width:950px;
+    height:440px;
+}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
@@ -143,10 +147,7 @@ and (max-device-width : 736px) {
         height: 70px;
     }
 }
-.seatImage{
-    width:950px;
-    height:440px;
-}
+
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
