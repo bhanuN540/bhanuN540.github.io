@@ -115,8 +115,10 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     font-size: 16px;
     color: #fff;
 }
-@media only screen and (min-width: 600px) {
-    height: 800px;
+@media only screen and (max-width: 600px) {
+    md-tabs.md-dynamic-height md-tab-content.md-active{
+        max-height: 600px !important;
+    }
 } 
 /*
 Copyright 2016 Google Inc. All Rights Reserved. 
