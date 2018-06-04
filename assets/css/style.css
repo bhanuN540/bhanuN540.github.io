@@ -122,6 +122,13 @@ and (max-device-width : 667px) {
         max-height: 600px !important;
     }
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+    md-tabs.md-dynamic-height md-tab-content.md-active{
+        max-height: 600px !important;
+    }
+}
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
