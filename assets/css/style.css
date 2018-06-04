@@ -115,11 +115,18 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     font-size: 16px;
     color: #fff;
 }
-@media only screen and (max-width: 600px) {
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
     }
-} 
+}
+/*@media only screen and (max-width: 600px) {
+    md-tabs.md-dynamic-height md-tab-content.md-active{
+        max-height: 600px !important;
+    }
+}*/ 
 /*
 Copyright 2016 Google Inc. All Rights Reserved. 
 Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
