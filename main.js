@@ -21,4 +21,16 @@ appRouter.$inject = ['$routeProvider','$locationProvider'];
 angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope", "$routeParams","dataService", "$timeout", function($scope,$rootScope,$routeParams,dataService,$timeout) {
        $rootScope.airlinesCode=$routeParams.params;
        $rootScope.cabin="Mint";
+       if($routeParams.params!=null && $routeParams.params != undefined){
+            if($routeParams.params.indexOf("_")!=-1){
+                var allParams=$routeParams.params.split("_");
+            }
+            else{
+                var allParams=$routeParams.params.split("&");
+            }
+            $rootScope.airlinesCode=allParams[0];
+            $rootScope.cabin=allParams[1];
+            alert($rootScope.cabin);
+            //$routeParams.airlinesCode=allParams[0];
+        }
 }]);
