@@ -121,6 +121,13 @@ and (max-device-width : 667px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
     }
+    .seatImage{
+        width:850px;
+        height:440px;
+    }
+    .flightDetailsContainer {
+        height: 70px;
+    }
 }
 @media only screen 
 and (min-device-width : 414px) 
@@ -128,6 +135,17 @@ and (max-device-width : 736px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
     }
+    .seatImage{
+        width:850px;
+        height:440px;
+    }   
+    .flightDetailsContainer {
+        height: 70px;
+    }
+}
+.seatImage{
+    width:950px;
+    height:440px;
 }
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
