@@ -107,7 +107,7 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     color: #fff;
     width: 98.5%;
     padding-left: 1.5%;
-    font-size: 12px;
+    font-size: 16px;
     height: 60px;
     padding-bottom: 10px;
 }
@@ -130,7 +130,7 @@ and (max-device-width : 667px) {
         height:440px;
     }
     .flightDetailsContainer {
-        height: 70px;
+        height: 100px;
     }
 }
 @media only screen 
@@ -144,7 +144,7 @@ and (max-device-width : 736px) {
         height:440px;
     }   
     .flightDetailsContainer {
-        height: 70px;
+        height: 100px;
     }
 }
 
