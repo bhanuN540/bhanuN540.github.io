@@ -30,7 +30,6 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
             }
             $rootScope.airlinesCode=allParams[0];
             $rootScope.cabin=allParams[1];
-            alert($rootScope.cabin);
             //$routeParams.airlinesCode=allParams[0];
         }
 }]);
