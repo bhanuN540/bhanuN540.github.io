@@ -19,6 +19,7 @@ function appRouter($routeProvider, $locationProvider) {
 
 appRouter.$inject = ['$routeProvider','$locationProvider'];
 angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope", "$routeParams","dataService", "$timeout", function($scope,$rootScope,$routeParams,dataService,$timeout) {
-       $rootScope.airlinesCode="JB";
+       $rootScope.airlinesCode=$routeParams.params;
+       alert($rootScope.airlinesCode)
        $rootScope.cabin="Mint";
 }]);
