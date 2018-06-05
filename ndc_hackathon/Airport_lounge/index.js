@@ -74,8 +74,8 @@
   var scenes = data.scenes.map(function(data) {
     var url_string = window.location.href
     var url = new URL(url_string);
-    var c = url.searchParams.get("ac");
-    var urlPrefix = c;
+     window.acode = url.searchParams.get("ac");
+    var urlPrefix = window.acode;
     var source = Marzipano.ImageUrlSource.fromString(
       urlPrefix + "/" + data.id + "/{z}/{f}/{y}/{x}.jpg",
       { cubeMapPreviewUrl: urlPrefix + "/" + data.id + "/preview.jpg" });
@@ -186,16 +186,14 @@
   }
 
   function updateSceneName(scene) {
-    var url_string = window.location.href
-    var url = new URL(url_string);
-    code = url.searchParams.get("ac");
+    alert(window.acode);
     var headerObj={
       "DL":"Delta Airlines lounge",
       "UA":"United Airlines lounge",
       "B6":"JetBlue Airlines lounge"
     };
-    $("#lounge_header").text(headerObj[code]);
-    $("#sceneNameId").text(headerObj[code]);
+    $("#lounge_header").text(headerObj[window.acode]);
+    $("#sceneNameId").text(headerObj[window.acode]);
     
   }
 
