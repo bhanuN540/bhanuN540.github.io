@@ -25,9 +25,7 @@
     background-color: #f6f6f6;
 }
 @media (max-width: 767px) {
-  .container-fluid div.col-xs-12:first-child{
-    margin-bottom: 4%;
-  }
+
 }
 .u-bg-light-grey{
   background-image: url(img/bg-image.jpg);
@@ -52,4 +50,15 @@
 }
 .address h4{
   font-weight: bold;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px),
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+  .container-fluid{
+    top: 4%;
+  }
 }
