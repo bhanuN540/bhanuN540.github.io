@@ -2,6 +2,14 @@ $(document).ready(function(){
     var url_string = window.location.href
     var url = new URL(url_string);
     code = url.searchParams.get("ac");
+    var headerObj={
+      "DL":"Delta Airlines lounge",
+      "UA":"United Airlines lounge",
+      "B6":"JetBlue Airlines lounge"
+    };
+    $("#lounge_header").text(headerObj[code]);
+
+    
     //var images= [{"url":"1.jpg"},{"url":"2.jpg"},{"url":"3.jpg"},{"url":"4.jpg"},{"url":"5.jpg"}];
     var images=[{"url":"1.jpg"},{"url":"2.jpg"}];
     //var images=[{"url":"1.jpg"},{"url":"2.jpg"},{"url":"3.jpg"},{"url":"4.jpg"},{"url":"5.jpg"}];
