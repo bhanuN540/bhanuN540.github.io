@@ -780,7 +780,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 /* View control buttons */
 .ctrlsContainer{
   position: absolute;
-  top:25%;
+  top:22%;
   right:8%;
 }
 
