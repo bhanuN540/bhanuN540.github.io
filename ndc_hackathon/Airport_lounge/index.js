@@ -75,6 +75,9 @@
     var url_string = window.location.href
     var url = new URL(url_string);
      window.acode = url.searchParams.get("ac");
+     if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL"){
+        window.acode = "other";
+     }
     var urlPrefix = window.acode;
     var source = Marzipano.ImageUrlSource.fromString(
       urlPrefix + "/" + data.id + "/{z}/{f}/{y}/{x}.jpg",
@@ -189,7 +192,8 @@
     var headerObj={
       "DL":"Delta Airlines lounge",
       "UA":"United Airlines lounge",
-      "B6":"JetBlue Airlines lounge"
+      "B6":"JetBlue Airlines lounge",
+      "other":"lounge"
     };
     $("#lounge_header").text(headerObj[window.acode]);
     $("#sceneNameId").text(headerObj[window.acode]);
