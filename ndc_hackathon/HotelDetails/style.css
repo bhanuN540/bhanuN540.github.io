@@ -1,0 +1,38 @@
+.container-fluid{
+     position: absolute;
+    /* height: 400px; */
+    z-index: 15;
+    top: 10%;
+    left: 4%;
+    /* r: -200px; */
+    /* width: 70%; */
+    background: #fff;
+    padding-right: 0;
+    width: 92%;
+    padding-left: 0;
+}
+/*.container-fluid>div{
+  width:50%;
+  height: 400px;
+}
+.container-fluid div:first-child{
+  float: left;
+}
+.container-fluid div:nth-child(2){
+  float: right;
+}*/
+.u-bg-light-grey {
+    background-color: #f6f6f6;
+}
+@media (max-width: 767px) {
+  .container-fluid div.col-xs-12:first-child{
+    margin-bottom: 4%;
+  }
+}
+.u-bg-light-grey{
+  background-image: url(img/bg-image.jpg);
+}
+.hotel_info.col-xs-12{
+  padding: 6%;
+  font-size: 18px;
+}
