@@ -186,7 +186,17 @@
   }
 
   function updateSceneName(scene) {
-    sceneNameElement.innerHTML = sanitize(scene.data.name);
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    code = url.searchParams.get("ac");
+    var headerObj={
+      "DL":"Delta Airlines lounge",
+      "UA":"United Airlines lounge",
+      "B6":"JetBlue Airlines lounge"
+    };
+    $("#lounge_header").text(headerObj[code]);
+    $("#sceneNameId").text(headerObj[code]);
+    
   }
 
   function updateSceneList(scene) {
