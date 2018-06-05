@@ -39,6 +39,7 @@
     font-weight: bold;
     color: #ff9033;
     text-align: center;
+    text-transform: capitalize;
 }
 .hotel_info{
   font-size: 20px;
