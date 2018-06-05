@@ -186,7 +186,6 @@
   }
 
   function updateSceneName(scene) {
-    alert(window.acode);
     var headerObj={
       "DL":"Delta Airlines lounge",
       "UA":"United Airlines lounge",
