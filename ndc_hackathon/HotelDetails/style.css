@@ -32,7 +32,24 @@
 .u-bg-light-grey{
   background-image: url(img/bg-image.jpg);
 }
-.hotel_info.col-xs-12{
-  padding: 6%;
+.hotel_info_container.col-xs-12{
+  padding:2% 6%;
   font-size: 18px;
+}
+.heading{
+    font-size: 30px; 
+    font-weight: bold;
+    color: #ff9033;
+    text-align: center;
+}
+.hotel_info{
+  font-size: 20px;
+  line-height: 30px;
+  padding: 4%;
+}
+.address{
+  padding-top: 6%;
+}
+.address h4{
+  font-weight: bold;
 }
