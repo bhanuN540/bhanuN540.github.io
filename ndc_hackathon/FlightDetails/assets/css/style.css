@@ -184,7 +184,7 @@ and (max-device-width : 736px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
-and (orientation : landscape) {
+and (orientation : portrait) {
 
     .flightDetailsContainer{
         height: 90px;
@@ -194,9 +194,9 @@ and (orientation : landscape) {
         overflow-y: scroll;
     }
     .seatImage {
-    width: 840px;
-    height: 440px;
-}
+        width: 840px;
+        height: 440px;
+    }
 }
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
