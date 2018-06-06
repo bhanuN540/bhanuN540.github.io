@@ -131,6 +131,13 @@ and (max-device-width : 667px) {
     }
     .flightDetailsContainer {
         height: 100px;
+        font-size: 18px;
+    }
+    .flightDetailsContainer h4{
+        font-size: 20px;
+    }
+    .md-tab {
+        font-size: 18px;
     }
 }
 @media only screen 
@@ -139,12 +146,15 @@ and (max-device-width : 736px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
     }
-    .seatImage{
-        width:850px;
-        height:440px;
-    }   
     .flightDetailsContainer {
         height: 100px;
+        font-size: 18px;
+    }
+    .flightDetailsContainer h4{
+        font-size: 20px;
+    }
+    .md-tab {
+        font-size: 18px;
     }
 }
 
