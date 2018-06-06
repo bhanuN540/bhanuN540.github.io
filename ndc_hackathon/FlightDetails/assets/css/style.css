@@ -180,6 +180,14 @@ and (max-device-width : 736px) {
         font-size: 18px;
     }
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+and (orientation : landscape) { 
+    body{
+        overflow: scroll;
+    }
+}
 /* iPhone 5 & 5S in landscape */
 @media only screen 
 and (min-device-width : 320px) 
