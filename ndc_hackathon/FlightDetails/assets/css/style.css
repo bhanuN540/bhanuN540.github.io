@@ -101,7 +101,8 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     padding-right: 20px;
 }
 .flightDetailsContainer{
-    z-index: 9999;
+    z-index: 99999;
+    position: relative;
     top: 18%;
     background-color: rgba(23,72,115,.6)!important;
     color: #fff;
