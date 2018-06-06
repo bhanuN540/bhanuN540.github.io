@@ -48,10 +48,10 @@ md-tabs-canvas {
     position: relative;
     overflow: hidden;
     display: block;
-    height: 60px;
+    height: 64px;
 }
 md-pagination-wrapper {
-    height: 60px;
+    height: 64px;
 }
 .amenities table td span:nth-child(2){
 	margin-top: -24px;
