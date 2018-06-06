@@ -120,6 +120,11 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     width:950px;
     height:440px;
 }
+.tabsContainer{
+    position: relative;
+    margin-top: -2px;
+    z-index: 9;
+}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
