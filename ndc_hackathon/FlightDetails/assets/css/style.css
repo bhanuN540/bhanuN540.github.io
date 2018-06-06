@@ -17,7 +17,7 @@
 
 body{
 	    font-family: Open Sans,Trebuchet MS,Verdana,Tahoma,sans-serif;
-	    /*background-image: url(../img/bg-image.jpg);*/
+	    background-image: url(../img/bg-image.jpg);
 	    width: 89.9% !important;
     	padding: 2% 5% 0 5%!important;
         overflow: hidden;
@@ -184,8 +184,11 @@ and (max-device-width : 736px) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px)
 and (orientation : landscape) { 
-    body{
-        overflow: scroll;
+    .flightDetailsContainer {
+        height: 86px;
+    }
+    md-tabs.md-dynamic-height md-tab-content.md-active {
+        max-height: 355px !important;
     }
 }
 /* iPhone 5 & 5S in landscape */
@@ -205,19 +208,6 @@ and (orientation : portrait) {
         width: 840px;
         height: 440px;
     }
-}
-#background {
-    width: 100%; 
-    height: 100%; 
-    position: absolute; 
-    left: 0px; 
-    top: 0px; 
-    z-index: 0;
-}
-
-.stretch {
-    width:100%;
-    height:100%;
 }
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
