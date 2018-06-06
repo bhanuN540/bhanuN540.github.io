@@ -180,6 +180,35 @@ and (max-device-width : 736px) {
         font-size: 18px;
     }
 }
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+and (orientation : landscape) { 
+    .flightDetailsContainer {
+        height: 86px;
+    }
+    md-tabs.md-dynamic-height md-tab-content.md-active {
+        max-height: 355px !important;
+    }
+}
+/* iPhone 5 & 5S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+
+    .flightDetailsContainer{
+        height: 90px;
+    }
+    md-tabs.md-dynamic-height md-tab-content.md-active {
+        max-height: 600px;
+        overflow-y: scroll;
+    }
+    .seatImage {
+        width: 840px;
+        height: 440px;
+    }
+}
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
