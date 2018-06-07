@@ -34,6 +34,7 @@ body{
     height: 50px;
     width: 200px;
     margin: 0 auto;
+    background-repeat: no-repeat;
 }
 .UA{
     background: url("../img/UA_logo.png") 100%;
@@ -45,6 +46,7 @@ body{
     z-index: 99999;
     background-size: 200px;
     text-indent: -9999em;
+    background-repeat: no-repeat;
 }
 .B6{
     background: url(../img/B6_logo.svg) 100%;
@@ -56,6 +58,7 @@ body{
     z-index: 99999;
     background-size: 200px;
     text-indent: -9999em;
+    background-repeat: no-repeat;
 }
 h4.md-display-2{
 	margin: 0px !important;
@@ -120,7 +123,7 @@ md-pagination-wrapper {
     font-weight: bold;
 }
 md-tabs.md-dynamic-height md-tab-content.md-active{
-    max-height: 430px;
+    max-height: 460px;
     overflow-y: scroll;
 }
 .flightDetails{
@@ -143,6 +146,7 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     font-size: 16px;
     height: 110px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 .flightDetailsContainer h4{
     font-size: 16px;
