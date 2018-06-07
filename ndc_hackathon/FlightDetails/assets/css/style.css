@@ -36,7 +36,7 @@ body{
     margin: 0 auto;
 }
 .UA{
-    background: url(../img/UA_logo.png) no-repeat scroll -1px -1276px transparent;
+    background: url(../img/UA_logo.png);
     display: block;
     /*float: left;*/
     text-indent: -9999em;
@@ -47,7 +47,7 @@ body{
     margin: 0 auto;
 }
 .B6{
-    background: url(../img/B6_logo.png) no-repeat scroll -1px -1276px transparent;
+    background: url(../img/B6_logo.png);
     display: block;
     /*float: left;*/
     text-indent: -9999em;
