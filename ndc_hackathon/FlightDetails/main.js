@@ -32,4 +32,5 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
             $rootScope.cabin=allParams[1];
             //$routeParams.airlinesCode=allParams[0];
         }
+        $("#header_logo").addClass(cabin);
 }]);
