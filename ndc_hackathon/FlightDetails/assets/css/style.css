@@ -19,8 +19,7 @@ body{
 	    font-family: Open Sans,Trebuchet MS,Verdana,Tahoma,sans-serif;
 	    background-image: url(../img/bg-image.jpg);
 	    width: 89.9% !important;
-    	padding: 2% 5% 0 5%!important;
-        overflow: hidden;
+    	padding: 0 5% 0 5% !important;
 }
 /*md-content.md-default-theme, md-content {
     color: #fff;
@@ -32,9 +31,9 @@ body{
     text-indent: -9999em;
     border: 1px solid transparent;
     padding: 1px;
-    height:80px;
-    width:400px;
-    margin-left: 0;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
 }
 h4.md-display-2{
 	margin: 0px !important;
@@ -98,10 +97,10 @@ md-pagination-wrapper {
     vertical-align: middle;
     font-weight: bold;
 }
-md-tabs.md-dynamic-height md-tab-content.md-active{
+/*md-tabs.md-dynamic-height md-tab-content.md-active{
     max-height: 480px;
     overflow-y: scroll;
-}
+}*/
 .flightDetails{
     margin-bottom: 20px;
 }
@@ -120,7 +119,7 @@ md-tabs.md-dynamic-height md-tab-content.md-active{
     width: 98.5%;
     padding-left: 1.5%;
     font-size: 16px;
-    height: 60px;
+    height: 110px;
     padding-bottom: 10px;
 }
 .flightDetailsContainer h4{
