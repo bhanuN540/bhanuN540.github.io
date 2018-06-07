@@ -146,7 +146,7 @@ and (max-device-width : 667px) {
         height:440px;
     }
     .flightDetailsContainer {
-        height: 110px;
+        height: 150px;
         font-size: 18px;
     }
     .flightDetailsContainer h4{
@@ -180,7 +180,7 @@ and (max-device-width : 736px) {
         max-height: 600px !important;
     }
     .flightDetailsContainer {
-        height: 110px;
+        height: 150px;
         font-size: 18px;
     }
     .flightDetailsContainer h4{
