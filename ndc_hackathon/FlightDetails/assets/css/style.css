@@ -245,6 +245,26 @@ and (orientation : portrait) {
         height: 440px;
     }
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {  
+    .flightDetailsContainer{
+        height: 125px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+    .flightDetailsContainer{
+        height: 125px;
+    }
+
+}
+
 /*@media only screen and (max-width: 600px) {
     md-tabs.md-dynamic-height md-tab-content.md-active{
         max-height: 600px !important;
