@@ -163,7 +163,7 @@ and (max-device-width : 736px) {
         max-height: 600px !important;
     }
     .flightDetailsContainer {
-        height: 110px;
+        height: 150px;
         font-size: 18px;
     }
     .flightDetailsContainer h4{
@@ -195,7 +195,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation : landscape) { 
     .flightDetailsContainer {
-        height: 86px;
+        height: 146px;
     }
     md-tabs.md-dynamic-height md-tab-content.md-active {
         max-height: 355px !important;
@@ -208,7 +208,7 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
 
     .flightDetailsContainer{
-        height: 90px;
+        height: 150px;
     }
     md-tabs.md-dynamic-height md-tab-content.md-active {
         max-height: 600px;
