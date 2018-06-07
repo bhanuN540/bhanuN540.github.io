@@ -1,58 +1,59 @@
 <div class="flightDetailsContainer">
-              <h4 class="md-display-2">Flight Details</h4>
-              <div class=flightDetails>
-                <div>
-                  <span>Origin:</span>
-                  <span>JFK</span>
-                </div>  
-                <div>
-                  <span>Destinaton:</span>
-                  <span>ATL</span>
-                </div> 
-                <div>
-                  <span>Departure Date & Time:</span>
-                  <span>30-05-2018 10:10:10</span>
-                </div> 
-                <div>
-                  <span>Flight Number:</span>
-                  <span>738</span>
-                </div> 
-                <div>
-                  <span>Cabin:</span>
-                  <span>{{cabin}}</span>
-                </div> 
-                <div>
-                  <span>Airlines Name:</span>
-                  <span>United Airlines</span>
-                </div>
-
-                <div style="clear:both;"></div>
-              </div>
-            </div>
-        <div class="tabsContainer">
-            <div ng-cloak="" class="tabsdemoDynamicHeight">              
-              <md-content>
-                <md-tabs md-dynamic-height="" md-border-bottom="">
-                  <md-tab label="Seats View">                                          
-                    <md-content class="md-padding">
-                      <div ng-include="'partials/seatsView/seatsView.html'"></div>
-                    </md-content>
-                  </md-tab>
-                  <md-tab label="Amenities">
-                    <md-content class="md-padding">
-                      <div ng-include="'partials/amenities/amenities.html'"></div>
-                    </md-content>
-                  </md-tab>
-                  <md-tab label="Baggage Details">
-                    <md-content class="md-padding">
-                      <div ng-include="'partials/baggageDetails/baggageDetails.html'"></div>
-                    </md-content>
-                  </md-tab>
-                </md-tabs>
-              </md-content>
-            </div>
-            <!--
-            Copyright 2016 Google Inc. All Rights Reserved. 
-            Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
-            -->
+    <img src="assets/img/DL.jpg">
+      <h4 class="md-display-2">Flight Details</h4>
+      <div class=flightDetails>
+        <div>
+          <span>Origin:</span>
+          <span>JFK</span>
+        </div>  
+        <div>
+          <span>Destinaton:</span>
+          <span>ATL</span>
         </div> 
+        <div>
+          <span>Departure Date & Time:</span>
+          <span>30-05-2018 10:10:10</span>
+        </div> 
+        <div>
+          <span>Flight Number:</span>
+          <span>738</span>
+        </div> 
+        <div>
+          <span>Cabin:</span>
+          <span>{{cabin}}</span>
+        </div> 
+        <div>
+          <span>Airlines Name:</span>
+          <span>United Airlines</span>
+        </div>
+
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+<div class="tabsContainer">
+    <div ng-cloak="" class="tabsdemoDynamicHeight">              
+      <md-content>
+        <md-tabs md-dynamic-height="" md-border-bottom="">
+          <md-tab label="Seats View">                                          
+            <md-content class="md-padding">
+              <div ng-include="'partials/seatsView/seatsView.html'"></div>
+            </md-content>
+          </md-tab>
+          <md-tab label="Amenities">
+            <md-content class="md-padding">
+              <div ng-include="'partials/amenities/amenities.html'"></div>
+            </md-content>
+          </md-tab>
+          <md-tab label="Baggage Details">
+            <md-content class="md-padding">
+              <div ng-include="'partials/baggageDetails/baggageDetails.html'"></div>
+            </md-content>
+          </md-tab>
+        </md-tabs>
+      </md-content>
+    </div>
+    <!--
+    Copyright 2016 Google Inc. All Rights Reserved. 
+    Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
+    -->
+</div> 
