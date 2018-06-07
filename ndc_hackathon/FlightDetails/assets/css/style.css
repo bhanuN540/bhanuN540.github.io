@@ -7,7 +7,7 @@
       background: white; }
   .tabsdemoDynamicHeight md-content h1:first-child {
     margin-top: 0; }
-.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper{
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper{ 
 	background: #174873;
 }
 
@@ -25,6 +25,17 @@ body{
 /*md-content.md-default-theme, md-content {
     color: #fff;
 }*/
+.DL_logo{
+    background: url(../img/DL_logo.png) no-repeat scroll -1px -1276px transparent;
+    display: block;
+    /*float: left;*/
+    text-indent: -9999em;
+    border: 1px solid transparent;
+    padding: 1px;
+    height:80px;
+    width:400px;
+    margin-left: 0;
+}
 h4.md-display-2{
 	margin: 0px !important;
     font-weight: bold;
