@@ -48,15 +48,14 @@ body{
 }
 .B6{
     background: url("../img/B6_logo.png") 100%;
-    display: block;
-    /*float: left;*/
-    text-indent: -9999em;
     border: 1px solid transparent;
     padding: 1px;
     height: 50px;
     width: 200px;
     margin: 0 auto;
+    z-index: 99999;
     background-size: 200px;
+    text-indent: -9999em;
 }
 h4.md-display-2{
 	margin: 0px !important;
