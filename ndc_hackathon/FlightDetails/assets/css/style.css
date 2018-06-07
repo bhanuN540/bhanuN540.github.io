@@ -47,11 +47,11 @@ body{
     text-indent: -9999em;
 }
 .B6{
-    background: url("../img/B6_logo.svg") 100%;
+    background: url(../img/B6_logo.svg) 100%;
     border: 1px solid transparent;
     padding: 1px;
-    height: 50px;
-    width: 200px;
+    height: 60px;
+    width: 197px;
     margin: 0 auto;
     z-index: 99999;
     background-size: 200px;
@@ -119,10 +119,10 @@ md-pagination-wrapper {
     vertical-align: middle;
     font-weight: bold;
 }
-/*md-tabs.md-dynamic-height md-tab-content.md-active{
-    max-height: 480px;
+md-tabs.md-dynamic-height md-tab-content.md-active{
+    max-height: 430px;
     overflow-y: scroll;
-}*/
+}
 .flightDetails{
     margin-bottom: 20px;
 }
@@ -150,7 +150,7 @@ md-pagination-wrapper {
 }
 .seatImage{
     width:950px;
-    height:440px;
+    height:430px;
 }
 .tabsContainer{
     position: relative;
