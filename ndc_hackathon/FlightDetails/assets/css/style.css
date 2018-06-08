@@ -60,6 +60,18 @@ body{
     text-indent: -9999em;
     background-repeat: no-repeat;
 }
+.B6{
+    background: url(../img/IBE_logo.svg) 100%;
+    border: 1px solid transparent;
+    padding: 1px;
+    height: 60px;
+    width: 197px;
+    margin: 0 auto;
+    z-index: 99999;
+    background-size: 200px;
+    text-indent: -9999em;
+    background-repeat: no-repeat;
+}
 h4.md-display-2{
 	margin: 0px !important;
     font-weight: bold;
