@@ -193,7 +193,7 @@
       "DL":"Delta lounge",
       "UA":"United lounge",
       "B6":"JetBlue lounge",
-      "IBE":"Iberia lounge"
+      "IBE":"Iberia lounge",
       "other":"lounge"
     };
     $("#lounge_header").text(headerObj[window.acode]);
