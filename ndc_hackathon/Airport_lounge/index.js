@@ -75,7 +75,7 @@
     var url_string = window.location.href
     var url = new URL(url_string);
      window.acode = url.searchParams.get("ac");
-     if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL"){
+     if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL" && window.acode!="IBE"){
         window.acode = "other";
      }
     var urlPrefix = window.acode;
