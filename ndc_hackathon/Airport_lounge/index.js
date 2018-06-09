@@ -75,7 +75,7 @@
     var url_string = window.location.href
     var url = new URL(url_string);
      window.acode = url.searchParams.get("ac");
-     if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL" && window.acode!="IBE"){
+     if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL" && window.acode!="IB"){
         window.acode = "other";
      }
     var urlPrefix = window.acode;
@@ -193,7 +193,7 @@
       "DL":"Delta lounge",
       "UA":"United lounge",
       "B6":"JetBlue lounge",
-      "IBE":"Iberia lounge",
+      "IB":"Iberia lounge",
       "other":"lounge"
     };
     $("#lounge_header").text(headerObj[window.acode]);
