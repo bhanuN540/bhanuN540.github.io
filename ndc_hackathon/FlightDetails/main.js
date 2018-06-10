@@ -44,7 +44,7 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
               $rootScope.selectedFlightInfo=$scope.flightData[i];
             }
           }
-          if($rootScope.selectedFlightInfo!=null && $rootScope.selectedFlightInfo!=undefined){
+          if($rootScope.selectedFlightInfo==null && $rootScope.selectedFlightInfo==undefined){
             $rootScope.selectedFlightInfo=$scope.flightData[0];
           }
           console.log('slected flight data' +JSON.stringify($rootScope.selectedFlightInfo));
