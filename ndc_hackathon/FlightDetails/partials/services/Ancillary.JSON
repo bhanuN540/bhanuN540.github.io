@@ -1,0 +1,37 @@
+{
+  "Ancillaries": [
+    {
+        "Code": "WIFI",
+        "Description": "Inflight Wifi",
+        "Cost": "20",
+        "CurrencyCode": "USD",        
+        "EligibleDesignation": "SCON"        
+      },
+       {
+        "Code": "LOUNGE",
+        "Description": "Lounge Access",
+        "Cost": "30",
+        "CurrencyCode": "USD",
+        "EligibleDesignation": "SCON"        
+      },
+      {
+        "Code": "AAC",
+        "Description": "Award Accelerator",
+        "Cost": "100",
+        "CurrencyCode": "USD"
+      },
+       {
+        "Code": "PAC",
+        "Description": "Premium Accelerator",
+        "Cost": "150",
+        "CurrencyCode": "USD"
+      },
+       {
+        "Code": "INS",
+        "Description": "Trip Protection (Travel Insurance)",
+        "Cost": "100",
+        "CurrencyCode": "USD"
+      }
+    
+  ]
+}

@@ -9,5 +9,9 @@ angular.module("myShoppingList")
             console.log('inside getPollingJSON');
             return $http.get('partials/services/amenities.json','',this.pollingHeaders);
         };
+        this.getFlightsJSON = function (req, tel) {
+            console.log('inside getPollingJSON');
+            return $http.get('partials/services/FlightList.json','',this.pollingHeaders);
+        };
 
 }]);
