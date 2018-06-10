@@ -38,13 +38,11 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
          console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
           $scope.flightData = jsonData.data.AirShoppingRS[0].ResponseOffer;
           console.log('inside getPollingJSON success....data is .....' +JSON.stringify($scope.flightData)); 
-          /*for(var i=0;i<$scope.amenities.length;i++){
-            var img=$scope.amenities[i].split(' ').join("_");
-            var obj={
-                "amenity":$scope.amenities[i],
-                "img":"assets/img/"+img+".png"
-              };
-            $scope.totalAmenitiesObj.push(obj);
-          }*/
+          for(var i=0;i<$scope.flightData.length;i++){
+            if($scope.flightData[i].MarketingFlightNumber==$rootScope.flightNo){
+              $rootScope.selectedFlightInfo=$scope.flightData[i];
+            }
+          }
+          console.log('slected flight data' +JSON.stringify($rootScope.selectedFlightInfo));
      });
 }]);
