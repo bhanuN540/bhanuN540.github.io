@@ -34,7 +34,7 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
         }
         $("#header_logo").addClass($rootScope.airlinesCode);
         dataService.getFlightsJSON().then(function (jsonData) {
-         console.log('inside getPollingJSON success....data is .....' +jsonData);  
+         console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
           /*$scope.amenities = jsonData.data.amenities.split(",");
           $scope.totalAmenitiesObj=[];
           for(var i=0;i<$scope.amenities.length;i++){
