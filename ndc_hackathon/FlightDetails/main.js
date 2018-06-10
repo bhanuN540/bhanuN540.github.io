@@ -30,14 +30,15 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
             }
             $rootScope.airlinesCode=allParams[0];
             $rootScope.cabin=allParams[1];
+            $rootScope.flightNo=allParams[1];
             //$routeParams.airlinesCode=allParams[0];
         }
         $("#header_logo").addClass($rootScope.airlinesCode);
         dataService.getFlightsJSON().then(function (jsonData) {
          console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
-          /*$scope.amenities = jsonData.data.amenities.split(",");
-          $scope.totalAmenitiesObj=[];
-          for(var i=0;i<$scope.amenities.length;i++){
+          $scope.flightData = jsonData.data.AirShoppingRS[0].ResponseOffer;
+          console.log('inside getPollingJSON success....data is .....' +JSON.stringify(flightData)); 
+          /*for(var i=0;i<$scope.amenities.length;i++){
             var img=$scope.amenities[i].split(' ').join("_");
             var obj={
                 "amenity":$scope.amenities[i],
