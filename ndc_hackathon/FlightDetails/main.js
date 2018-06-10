@@ -39,7 +39,7 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
           $scope.flightData = jsonData.data.AirShoppingRS[0].ResponseOffer;
           //console.log('inside getPollingJSON success....data is .....' +JSON.stringify($scope.flightData)); 
           for(var i=0;i<$scope.flightData.length;i++){
-            if($scope.flightData[i].MarketingFlightNumber==$rootScope.flightNo){
+            if($scope.flightData[i].MarketingCarrierCode==$rootScope.airlinesCode){
               console.log("inside IF")
               $rootScope.selectedFlightInfo=$scope.flightData[i];
             }
