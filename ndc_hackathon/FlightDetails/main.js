@@ -30,16 +30,17 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
             }
             $rootScope.airlinesCode=allParams[0];
             $rootScope.cabin=allParams[1];
-            $rootScope.flightNo=allParams[1];
+            $rootScope.flightNo=allParams[2];
             //$routeParams.airlinesCode=allParams[0];
         }
         $("#header_logo").addClass($rootScope.airlinesCode);
         dataService.getFlightsJSON().then(function (jsonData) {
-         console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
+         //console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
           $scope.flightData = jsonData.data.AirShoppingRS[0].ResponseOffer;
-          console.log('inside getPollingJSON success....data is .....' +JSON.stringify($scope.flightData)); 
+          //console.log('inside getPollingJSON success....data is .....' +JSON.stringify($scope.flightData)); 
           for(var i=0;i<$scope.flightData.length;i++){
             if($scope.flightData[i].MarketingFlightNumber==$rootScope.flightNo){
+              console.log("inside IF")
               $rootScope.selectedFlightInfo=$scope.flightData[i];
             }
           }
