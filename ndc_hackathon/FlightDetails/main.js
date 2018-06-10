@@ -30,7 +30,7 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
             }
             $rootScope.airlinesCode=allParams[0];
             $rootScope.cabin=allParams[1];
-            $rootScope.flightNo=allParams[2];
+            $rootScope.flightNo="163";
             //$routeParams.airlinesCode=allParams[0];
         }
         $("#header_logo").addClass($rootScope.airlinesCode);
