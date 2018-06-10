@@ -37,7 +37,7 @@ angular.module('myShoppingList').controller('mainCtrl', ["$scope", "$rootScope",
         dataService.getFlightsJSON().then(function (jsonData) {
          console.log('inside getPollingJSON success....data is .....' +JSON.stringify(jsonData));  
           $scope.flightData = jsonData.data.AirShoppingRS[0].ResponseOffer;
-          console.log('inside getPollingJSON success....data is .....' +JSON.stringify(flightData)); 
+          console.log('inside getPollingJSON success....data is .....' +JSON.stringify($scope.flightData)); 
           /*for(var i=0;i<$scope.amenities.length;i++){
             var img=$scope.amenities[i].split(' ').join("_");
             var obj={
