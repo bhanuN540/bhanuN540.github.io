@@ -1,7 +1,8 @@
 $(document).ready(function(){
     var url_string = window.location.href
     var url = new URL(url_string);
-    code = url.searchParams.get("ac");
+    //code = url.searchParams.get("ac");
+    code="BA"
     
     //var images= [{"url":"1.jpg"},{"url":"2.jpg"},{"url":"3.jpg"},{"url":"4.jpg"},{"url":"5.jpg"}];
     var images=[{"url":"1.jpg"},{"url":"2.jpg"}];
