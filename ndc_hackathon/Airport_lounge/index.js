@@ -74,7 +74,7 @@
   var scenes = data.scenes.map(function(data) {
     var url_string = window.location.href
     var url = new URL(url_string);
-     window.acode = "BA"
+     window.acode = "DL"
      if(window.acode!="B6" && window.acode!="UA" && window.acode!="DL" && window.acode!="IB"){
         window.acode = "other";
      }
