@@ -1,0 +1,186 @@
+.padT{
+    margin-top:10px;
+}
+.mat-form-field-infix{
+    border-bottom:1px solid #ccc;
+}
+.bgC{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top:10px;
+    margin: auto;
+    top:20%;
+    position: absolute;
+    width: 100%;
+}
+.bgL{
+    background-color:rgba(31, 80, 132, 0.5);
+    border-radius: 3px;
+    padding: 4% 0;
+}
+.selectText{
+    position: absolute;
+    text-align: center;
+    padding: 1%;
+    width: 50px;
+    background-color:#1f5084;
+    border-radius: 3px;
+    color:rgb(133, 36, 36);
+}
+.selectBox{
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    color:#000;
+    text-align: center;
+    width: 100%;
+}
+.mT2{
+    margin-top:2%;
+}
+
+.mat-select-value-text{
+    color:#ccc;
+}
+.p0{
+    padding:0;
+}
+.fl{
+    float: left;
+}
+.w50{
+    width: 50%;
+}
+.mat-form-field-flex{
+    border-bottom: 1px solid #000;
+}
+.mat-form-field-suffix{
+    background:  #1f5084;
+}
+.mat-select-value{
+    color:#000;
+}
+table{
+    width: 100%;
+}
+thead{
+    background: #8ab2dc;
+}
+table tr td{
+    text-align: center;
+    padding: 1% 0;
+}
+table tr th:first-child{
+    width: 5%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1% 0;
+}
+table tr th{
+    width: 21%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1% 0;
+}
+table tr th:last-child{
+    width: 10%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1% 0;
+}
+table tbody tr:nth-child(2n){
+    background-color:#dee7ee;
+}
+.searchForm div span{
+    padding-right:1%; 
+}
+.searchForm{
+    margin-top: -20px;
+}
+.searchForm>div{
+    padding-top:1%;
+    padding-bottom: 1%; 
+}
+.dn{
+    display: none;
+}
+.tc{
+    text-align: center;
+}
+.p0{
+    padding: 0;
+}
+.package{
+    font-size: 14px;
+    background:rgba(31, 80, 132);
+    color:#fff;
+}
+.mT4{
+    margin-top: 4%;
+}
+.mT6{
+    margin-top: 6%;
+}
+.mT10{
+    margin-top: 10%;
+}
+.package p{
+    margin-bottom: 0.5%;
+    margin-top:0.5%;
+}
+.cdk-overlay-pane{
+    max-width: 900px !important;
+    width: 900px !important;
+}
+
+
+.backdrop {
+    background-color:rgba(0,0,0,0.6);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+}
+.modal{
+    z-index: auto !important;
+}
+.example-full-width{
+    border-left:none !important;
+}
+
+.paddingLeft{
+    padding-left: 4rem;
+}
+
+
+.deltaBg{
+    background-color : #11172b;
+    margin-left: -1.8rem;
+}
+
+.expediaBg{
+    background-color: #fc0;
+    margin-left: -2rem;
+}
+
+.priceFont{
+    font-size: 2rem;
+}
+.backdrop {
+    background-color:rgba(0,0,0,0.6);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+}
+
+.offerModal {
+    z-index: 9999999999 !important;
+}
+.modal-content{
+    width : 48rem !important;
+}
+.offersRow {
+    margin-left:0;
+}
